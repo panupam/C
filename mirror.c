@@ -15,4 +15,5 @@ int main(){
   }else{
     printf("%d:%d",11,60-mm);
   }
+  return 0;
 }

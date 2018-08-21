@@ -53,7 +53,7 @@ void mergesort(int* A, int lo,int mid,int hi){
       A[k]=C[j];
       j++;
     }
-    return;
+    //return;
   }
   /*for(i=0;i<(mid-lo+1);i++){
     for(j=count-i+1;j<(hi-mid);j++){
