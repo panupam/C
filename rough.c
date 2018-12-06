@@ -1,10 +1,20 @@
 #include<stdio.h>
-#include <string.h>
+int main (){
+    int n,p,q,i=3,k;
+    scanf("%d %d %d",&n,&p,&q);
+    int prepre=0;
+    int pre=1;
+    int sn;
+    while(i<=n){
+      sn=p*pre+q*prepre;
+      prepre=pre;
+      pre=sn;
+      if(i==5)printf("%d ",sn);
+      i++;
 
-int main(){
-  char A[]="Hello";
-  char B[]="Heklpokkk";
-  int a=strcmp(A,B);
-  printf("%d",a);
-return 0;
+    }
+    printf("%d\n",sn );
+
+
+   return 0;
 }
