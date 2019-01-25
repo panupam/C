@@ -4,14 +4,14 @@ int main(){
   scanf("%d:%d",&hh,&mm);
   if(mm==0){
     if(hh<12){
-      printf("%d:%d",(12-h),mm);
+      printf("%d:%d",(12-hh),mm);
     }else printf("%d:%d",hh,mm);
   }
   else if(hh<11){
-    printf("%d:%d",(11-h),(60-mm));
+    printf("%d:%d",(11-hh),(60-mm));
   }
   else if(hh==11){
-    printf("%d:%d",1,60-mm);
+    printf("%d:%d",12,60-mm);
   }else{
     printf("%d:%d",11,60-mm);
   }
