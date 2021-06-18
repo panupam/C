@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/C.dir/ascending.c.o -o C 
